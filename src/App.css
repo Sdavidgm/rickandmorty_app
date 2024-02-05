@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,300;0,500;0,600;0,700;0,900;1,300;1,500;1,600;1,700;1,900&display=swap');
+
+
+
+/*..............reset.............*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Taviraj', serif;
+}
+
+body{
+  background-color: #05292E;
+  color: white;
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+  font-family:inherit;
+  border: none;
+}
+ul{
+  list-style: none;
+}
+
+/* ---------app styles--------*/
+h1{
+  margin-top: 35px;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.img_load{
+  width: 600px;
+  height: 600px;
+  padding: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container_banner{
+  width: 100%;
+}
+.img_banner{
+  width: 100%;
+  background-size:cover;
+  background-position: 70%;
+}
+.app_form{
+  margin-top: 35px;
+}
+.app_text{
+  text-align: center;
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+.app_btn{
+  background-color: rgb(31, 212, 31);
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+}
+.app_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  justify-content: space-evenly;
+  width: 100%;
+}
